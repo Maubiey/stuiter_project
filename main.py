@@ -23,7 +23,7 @@ while True:
     if y > hoogte - 20 or y < 20: stap_y *= -1
 
     scherm.fill((15, 15, 15)) # Bijna zwart
-    pygame.draw.circle(scherm, (255, 100, 0), (x, y), 20) # Oranje cirkel
+    pygame.draw.circle(scherm, (100, 100, 0), (x, y), 20) # Oranje cirkel
     pygame.display.flip()
     klok.tick(60)
 
