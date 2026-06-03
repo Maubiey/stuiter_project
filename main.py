@@ -6,6 +6,7 @@ breedte, hoogte = 600, 400
 scherm = pygame.display.set_mode((breedte, hoogte))
 pygame.display.set_caption("Unix Stuiter Cirkel")
 klok = pygame.time.Clock()
+#hkuhihu
 
 x, y = 100, 100
 stap_x, stap_y = 6, 6
